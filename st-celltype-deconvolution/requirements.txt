@@ -1,0 +1,13 @@
+torch
+torchvision
+torch-scatter
+torch-sparse
+torch-geometric
+numpy
+pandas
+scanpy
+matplotlib
+seaborn
+h5py
+scikit-learn
+tqdm
