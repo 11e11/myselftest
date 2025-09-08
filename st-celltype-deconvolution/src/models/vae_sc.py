@@ -11,7 +11,7 @@ class VAE(nn.Module):
         last_dim = input_dim
         for h_dim in hidden_dims:
             encoder_layers.append(nn.Linear(last_dim, h_dim))
-            encoder_layers.append(nn.BatchNorm1d(h_dim))
+            encoder_layers.append(nn.LayerNorm(h_dim))
             encoder_layers.append(nn.LeakyReLU())
             last_dim = h_dim
         self.encoder = nn.Sequential(*encoder_layers)
@@ -22,7 +22,7 @@ class VAE(nn.Module):
         last_dim = latent_dim
         for h_dim in reversed(hidden_dims):
             decoder_layers.append(nn.Linear(last_dim, h_dim))
-            decoder_layers.append(nn.BatchNorm1d(h_dim))
+            decoder_layers.append(nn.LayerNorm(h_dim))
             decoder_layers.append(nn.LeakyReLU())
             last_dim = h_dim
         self.decoder = nn.Sequential(*decoder_layers)
