@@ -3,92 +3,92 @@
 ==================================================
 
 --- 正在诊断: B cells ---
-VAE Top 20 基因: ['Iglc2', 'Ptma', 'Fth1', 'Ighm', 'Rps2', 'Rplp0', 'Cd79a', 'Gm42418', 'H2-Ab1', 'Rpl41', 'H2-Eb1', 'Rps12', 'Rpsa', 'Rplp1', 'H2-Aa', 'Igkc', 'Actb', 'Tmsb4x', 'Cd74', 'Malat1']
+VAE Top 20 基因: ['Ptma', 'Ly6d', 'Fth1', 'Rplp0', 'Rps2', 'Gm42418', 'Ighm', 'H2-Eb1', 'Cd79a', 'H2-Ab1', 'Rpsa', 'Rps12', 'Rpl41', 'H2-Aa', 'Rplp1', 'Actb', 'Tmsb4x', 'Igkc', 'Malat1', 'Cd74']
 在 Top 20 中找到的 Marker: ['CD79A'] (1/3)
-  与 Ms4a1 (MS4A1) 的相关性: r=0.683, p=3.89e-151
-  与 Cd79a (CD79A) 的相关性: r=0.821, p=1.76e-267
+  与 Ms4a1 (MS4A1) 的相关性: r=0.702, p=6.20e-163
+  与 Cd79a (CD79A) 的相关性: r=0.828, p=4.17e-276
 
 --- 正在诊断: CD4 T cells ---
-VAE Top 20 基因: ['Fth1', 'Trbc1', 'Hsp90ab1', 'Actg1', 'Hspa8', 'Ms4a4b', 'B2m', 'Ptma', 'Ppia', 'Trbc2', 'Gm42418', 'Rps2', 'Rps12', 'Rpl41', 'Rplp0', 'Rpsa', 'Actb', 'Rplp1', 'Tmsb4x', 'Malat1']
+VAE Top 20 基因: ['Hspa8', 'Actg1', 'Trbc1', 'Fth1', 'Hsp90ab1', 'Ms4a4b', 'Ptma', 'B2m', 'Trbc2', 'Ppia', 'Gm42418', 'Rps2', 'Rps12', 'Rpl41', 'Rplp0', 'Rpsa', 'Actb', 'Tmsb4x', 'Rplp1', 'Malat1']
 在 Top 20 中找到的 Marker: [] (0/5)
-  与 Cd4 (CD4) 的相关性: r=0.354, p=1.28e-33
-  与 Il7r (IL7R) 的相关性: r=0.522, p=1.84e-77
-  与 Cd3d (CD3D) 的相关性: r=0.523, p=1.15e-77
-  与 Cd3e (CD3E) 的相关性: r=0.466, p=5.39e-60
+  与 Cd4 (CD4) 的相关性: r=0.358, p=2.30e-34
+  与 Il7r (IL7R) 的相关性: r=0.540, p=1.22e-83
+  与 Cd3d (CD3D) 的相关性: r=0.544, p=4.25e-85
+  与 Cd3e (CD3E) 的相关性: r=0.473, p=6.33e-62
 
 --- 正在诊断: CD8 T cells ---
-VAE Top 20 基因: ['Cd8b1', 'Npm1', 'Ptma', 'Actg1', 'Hspa8', 'B2m', 'Hsp90ab1', 'Ms4a4b', 'Trbc2', 'Ppia', 'Gm42418', 'Rps2', 'Rpl41', 'Rps12', 'Actb', 'Rplp0', 'Rpsa', 'Tmsb4x', 'Rplp1', 'Malat1']
+VAE Top 20 基因: ['Ptma', 'Npm1', 'Actg1', 'Cd8b1', 'Hspa8', 'Ms4a4b', 'Hsp90ab1', 'Trbc2', 'B2m', 'Ppia', 'Gm42418', 'Rps2', 'Rps12', 'Rpl41', 'Rplp0', 'Actb', 'Rpsa', 'Tmsb4x', 'Malat1', 'Rplp1']
 在 Top 20 中找到的 Marker: [] (0/5)
-  与 Cd8a (CD8A) 的相关性: r=0.670, p=3.17e-143
-  与 Cd3d (CD3D) 的相关性: r=0.582, p=4.61e-100
-  与 Cd3e (CD3E) 的相关性: r=0.478, p=2.80e-63
+  与 Cd8a (CD8A) 的相关性: r=0.676, p=6.35e-147
+  与 Cd3d (CD3D) 的相关性: r=0.584, p=6.40e-101
+  与 Cd3e (CD3E) 的相关性: r=0.481, p=1.88e-64
 
 --- 正在诊断: GD T cells ---
-VAE Top 20 基因: ['Emb', 'Lmo4', 'Ppia', 'B2m', 'S100a10', 'Itm2b', 'Rps2', 'Junb', 'Rplp0', 'Rpsa', 'Rpl41', 'Il7r', 'Rps12', 'Gm42418', 'S100a6', 'S100a4', 'Actb', 'Rplp1', 'Malat1', 'Tmsb4x']
+VAE Top 20 基因: ['Lgals1', '5830411N06Rik', 'Lmo4', 'S100a10', 'Cd163l1', 'Rplp0', 'Emb', 'Rpsa', 'Rpl41', 'Rps12', 'Gm42418', 'Actb', 'Junb', 'S100a6', 'Cxcr6', 'S100a4', 'Il7r', 'Rplp1', 'Malat1', 'Tmsb4x']
 在 Top 20 中找到的 Marker: [] (0/6)
-  与 Trdc (TRDC) 的相关性: r=0.280, p=3.95e-21
-  与 Cd3d (CD3D) 的相关性: r=0.423, p=1.28e-48
-  与 Cd3e (CD3E) 的相关性: r=0.382, p=3.13e-39
+  与 Trdc (TRDC) 的相关性: r=0.282, p=2.13e-21
+  与 Cd3d (CD3D) 的相关性: r=0.577, p=5.21e-98
+  与 Cd3e (CD3E) 的相关性: r=0.515, p=3.82e-75
 
 --- 正在诊断: Macrophages ---
-VAE Top 20 基因: ['Timd4', 'C1qb', 'Rps2', 'Tyrobp', 'Ppia', 'Itm2b', 'C1qa', 'Rplp0', 'Aif1', 'Gpx1', 'Rpl41', 'Rps12', 'Gm42418', 'Rplp1', 'Apoe', 'Actb', 'Ftl1', 'Lyz2', 'Fth1', 'Tmsb4x']
+VAE Top 20 基因: ['C1qc', 'Rpl41', 'Rps12', 'Cfp', 'Tyrobp', 'Cd63', 'Aif1', 'Hebp1', 'Txn1', 'Rplp1', 'Lyz1', 'Gpx1', 'C1qa', 'Gm42418', 'Actb', 'Apoe', 'Lyz2', 'Ftl1', 'Tmsb4x', 'Fth1']
 在 Top 20 中找到的 Marker: [] (0/2)
-  与 Cd68 (CD68) 的相关性: r=0.203, p=1.17e-11
+  与 Cd68 (CD68) 的相关性: r=0.204, p=1.12e-11
 
 --- 正在诊断: Migratory DCs ---
-VAE Top 20 基因: ['Npc2', 'Rpl41', 'Tbc1d4', 'Nfkbia', 'Id2', 'Actg1', 'Ftl1', 'Lsp1', 'Crip1', 'Marcks', 'Tmem123', 'Fscn1', 'Epsti1', 'Rpsa', 'B2m', 'Gm42418', 'Actb', 'Ccl5', 'Tmsb4x', 'Malat1']
+VAE Top 20 基因: ['Gadd45b', 'Etv3', 'Cst3', 'Rap2b', 'Fabp5', 'Cxcl16', 'Socs2', 'Rpsa', 'Tbc1d4', 'Crip1', 'B2m', 'Marcks', 'Lsp1', 'Actb', 'Tmem123', 'Gm42418', 'Epsti1', 'Tmsb4x', 'Ccl5', 'Malat1']
 在 Top 20 中找到的 Marker: [] (0/2)
 
 --- 正在诊断: Monocytes ---
-VAE Top 20 基因: ['Ctss', 'Rpl41', 'Lst1', 'Hspa8', 'H2-Aa', 'Fcer1g', 'Gm42418', 'B2m', 'Ifitm3', 'Ifi27l2a', 'Plac8', 'Tyrobp', 'Ftl1', 'Fth1', 'Malat1', 'Psap', 'Cd74', 'Actb', 'Tmsb4x', 'Lyz2']
+VAE Top 20 基因: ['Ifitm3', 'Gpx1', 'Gm42418', 'H2-Ab1', 'Cst3', 'Tgfbi', 'B2m', 'Tyrobp', 'Plac8', 'Ctss', 'Malat1', 'Hspa8', 'Ftl1', 'Ifi27l2a', 'Fth1', 'Psap', 'Cd74', 'Actb', 'Tmsb4x', 'Lyz2']
 在 Top 20 中找到的 Marker: [] (0/4)
-  与 Cd14 (CD14) 的相关性: r=0.071, p=1.87e-02
-  与 Csf1r (CSF1R) 的相关性: r=0.214, p=9.21e-13
-  与 Ccr2 (CCR2) 的相关性: r=0.283, p=1.56e-21
+  与 Cd14 (CD14) 的相关性: r=0.065, p=3.19e-02
+  与 Csf1r (CSF1R) 的相关性: r=0.214, p=9.09e-13
+  与 Ccr2 (CCR2) 的相关性: r=0.285, p=6.49e-22
 
 --- 正在诊断: NK cells ---
-VAE Top 20 基因: ['Gm42418', 'Klre1', 'Rplp0', 'Klrk1', 'Actg1', 'Klra4', 'Rps12', 'Rpsa', 'Fcer1g', 'Ms4a4b', 'Rpl41', 'AW112010', 'Nkg7', 'Rplp1', 'Tyrobp', 'Actb', 'Gzma', 'Malat1', 'Ccl5', 'Tmsb4x']
+VAE Top 20 基因: ['Lgals1', 'Fcer1g', 'Rps12', 'Rpsa', 'Klre1', 'Rpl41', 'Klrb1c', 'Klra3', 'Klra8', 'Rplp1', 'Nkg7', 'Ms4a4b', 'Actb', 'Tyrobp', 'Klra4', 'Malat1', 'Ccl5', 'AW112010', 'Tmsb4x', 'Gzma']
 在 Top 20 中找到的 Marker: ['NKG7'] (1/3)
-  与 Nkg7 (NKG7) 的相关性: r=0.474, p=2.40e-62
-  与 Gzmb (GZMB) 的相关性: r=0.103, p=6.64e-04
+  与 Nkg7 (NKG7) 的相关性: r=0.447, p=8.93e-55
+  与 Gzmb (GZMB) 的相关性: r=0.024, p=4.30e-01
 
 --- 正在诊断: Tregs ---
-VAE Top 20 基因: ['Izumo1r', 'Ppia', 'Ms4a4b', 'Hspa8', 'Actg1', 'Trbc1', 'Ikzf2', 'Rps2', 'B2m', 'Ifi27l2a', 'Rpl41', 'Gm42418', 'Trbc2', 'Rps12', 'Rplp0', 'Rpsa', 'Rplp1', 'Actb', 'Tmsb4x', 'Malat1']
+VAE Top 20 基因: ['Hsp90ab1', 'Ms4a6b', 'Junb', 'Ppia', 'Ms4a4b', 'Rps2', 'Rps12', 'B2m', 'Rplp0', 'Gm42418', 'Izumo1r', 'Rpl41', 'Trbc1', 'Rpsa', 'Trbc2', 'Ifi27l2a', 'Rplp1', 'Actb', 'Tmsb4x', 'Malat1']
 在 Top 20 中找到的 Marker: [] (0/2)
-  与 Foxp3 (FOXP3) 的相关性: r=0.308, p=2.38e-25
-  与 Il2ra (IL2RA) 的相关性: r=0.327, p=1.49e-28
+  与 Foxp3 (FOXP3) 的相关性: r=0.290, p=1.25e-22
+  与 Il2ra (IL2RA) 的相关性: r=0.314, p=1.87e-26
 
 --- 正在诊断: cDC1s ---
-VAE Top 20 基因: ['Ftl1', 'Ptma', 'Ppt1', 'Hspa8', 'Rps2', 'Rpl41', 'Actg1', 'Rps12', 'Atox1', 'Rplp0', 'Psap', 'Rpsa', 'Rplp1', 'H2-Eb1', 'H2-Aa', 'H2-Ab1', 'Actb', 'Cst3', 'Cd74', 'Tmsb4x']
+VAE Top 20 基因: ['Plbd1', 'Ptma', 'Ftl1', 'Ppt1', 'Alox5ap', 'Rps12', 'Rplp0', 'Rpl41', 'Actg1', 'Rpsa', 'Psap', 'Rplp1', 'Atox1', 'H2-Eb1', 'H2-Ab1', 'H2-Aa', 'Actb', 'Cd74', 'Tmsb4x', 'Cst3']
 在 Top 20 中找到的 Marker: [] (0/2)
-  与 Clec9a (CLEC9A) 的相关性: r=-0.002, p=9.42e-01
-  与 Xcr1 (XCR1) 的相关性: r=-0.057, p=5.98e-02
+  与 Clec9a (CLEC9A) 的相关性: r=0.012, p=6.95e-01
+  与 Xcr1 (XCR1) 的相关性: r=-0.064, p=3.34e-02
 
 --- 正在诊断: cDC2s ---
-VAE Top 20 基因: ['Gpx1', 'Gm2a', 'Actg1', 'Rplp0', 'Ifi30', 'Rpl41', 'S100a6', 'Rpsa', 'Rplp1', 'Rps12', 'Fth1', 'Gm42418', 'Malat1', 'S100a4', 'H2-Ab1', 'H2-Eb1', 'Actb', 'H2-Aa', 'Tmsb4x', 'Cd74']
+VAE Top 20 基因: ['Rplp1', 'Rps12', 'Ptma', 'Rpl41', 'Fth1', 'Lsp1', 'Actg1', 'Ifi30', 'Ms4a6c', 'Gpx1', 'Gm42418', 'Malat1', 'S100a6', 'S100a4', 'H2-Eb1', 'H2-Ab1', 'Actb', 'H2-Aa', 'Tmsb4x', 'Cd74']
 在 Top 20 中找到的 Marker: [] (0/2)
-  与 Sirpa (SIRPA) 的相关性: r=0.214, p=7.98e-13
+  与 Sirpa (SIRPA) 的相关性: r=0.130, p=1.66e-05
 
 --- 正在诊断: pDCs ---
-VAE Top 20 基因: ['Ly6a', 'Plac8', 'Ppia', 'Ly6c2', 'Rplp1', 'Lgals1', 'Psap', 'Siglech', 'H2-Ab1', 'Fth1', 'Gm42418', 'Ly6d', 'Irf8', 'H2-Aa', 'Bst2', 'Tyrobp', 'Actb', 'Tmsb4x', 'Malat1', 'Cd74']
+VAE Top 20 基因: ['Ly6a', 'Siglech', 'Psap', 'Pltp', 'Gm42418', 'Ctsl', 'H2-Aa', 'Ctsb', 'Fth1', 'Actb', 'H2-Ab1', 'Tmsb4x', 'Plac8', 'Ly6c2', 'Irf8', 'Tyrobp', 'Ly6d', 'Malat1', 'Bst2', 'Cd74']
 在 Top 20 中找到的 Marker: ['SIGLECH'] (1/3)
-  与 Siglech (SIGLECH) 的相关性: r=0.232, p=7.85e-15
-  与 Irf7 (IRF7) 的相关性: r=0.271, p=6.93e-20
+  与 Siglech (SIGLECH) 的相关性: r=0.175, p=5.60e-09
+  与 Irf7 (IRF7) 的相关性: r=0.161, p=8.82e-08
 
 
 ==================================================
 诊断总结报告
 ==================================================
         Cell Type VAE Top Markers Best Marker  Pearson r        P-value
-0         B cells             1/3       Cd79a   0.820914  1.757929e-267
-1     CD4 T cells             0/5        Cd3d   0.522907   1.146055e-77
-2     CD8 T cells             0/5        Cd8a   0.670045  3.169923e-143
-3      GD T cells             0/6        Cd3d   0.422939   1.280680e-48
-4     Macrophages             0/2        Cd68   0.203365   1.172151e-11
+0         B cells             1/3       Cd79a   0.827988  4.165355e-276
+1     CD4 T cells             0/5        Cd3d   0.543910   4.246628e-85
+2     CD8 T cells             0/5        Cd8a   0.676384  6.345473e-147
+3      GD T cells             0/6        Cd3d   0.577191   5.208680e-98
+4     Macrophages             0/2        Cd68   0.203548   1.122763e-11
 5   Migratory DCs             0/2                   -inf   1.000000e+00
-6       Monocytes             0/4        Ccr2   0.282832   1.560004e-21
-7        NK cells             1/3        Nkg7   0.474327   2.395142e-62
-8           Tregs             0/2       Il2ra   0.326574   1.487933e-28
-9           cDC1s             0/2      Clec9a  -0.002216   9.416779e-01
-10          cDC2s             0/2       Sirpa   0.214437   7.980144e-13
-11           pDCs             1/3        Irf7   0.271359   6.930792e-20
+6       Monocytes             0/4        Ccr2   0.285408   6.491018e-22
+7        NK cells             1/3        Nkg7   0.447080   8.925608e-55
+8           Tregs             0/2       Il2ra   0.314257   1.866417e-26
+9           cDC1s             0/2      Clec9a   0.011893   6.946397e-01
+10          cDC2s             0/2       Sirpa   0.129906   1.661319e-05
+11           pDCs             1/3     Siglech   0.175210   5.595903e-09
